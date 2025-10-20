@@ -1,0 +1,13 @@
+pandas 
+numpy
+seaborn
+matplotlib
+scikit-learn
+torch
+torchvision
+torchaudio
+pillow
+opencv-python
+
+# -e .
+# pip install -r requirements.txt
