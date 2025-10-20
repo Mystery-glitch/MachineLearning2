@@ -15,9 +15,7 @@ It helps the model learn better and avoid being biased toward large pixel values
 Keeps all pixel values small and consistent, which helps neural networks train faster.  
 
 **Formula:**  
-\[
-x' = \frac{x - \text{min}(x)}{\text{max}(x) - \text{min}(x)}
-\]
+`x' = (x - min(x)) / (max(x) - min(x))`
 
 ---
 
@@ -28,9 +26,7 @@ x' = \frac{x - \text{min}(x)}{\text{max}(x) - \text{min}(x)}
 Makes data have **mean = 0** and **std = 1**, improving model stability.  
 
 **Formula:**  
-\[
-x' = \frac{x - \mu}{\sigma}
-\]
+`x' = (x - μ) / σ`
 
 ---
 
@@ -41,9 +37,7 @@ x' = \frac{x - \mu}{\sigma}
 Some models (like GANs) perform better when values are between -1 and 1.  
 
 **Formula:**  
-\[
-x' = \frac{x}{127.5} - 1
-\]
+`x' = x / 127.5 - 1`
 
 ---
 
@@ -54,9 +48,7 @@ x' = \frac{x}{127.5} - 1
 Useful when images vary in brightness or lighting.  
 
 **Formula:**  
-\[
-x' = \frac{x - \text{mean}(x)}{\text{std}(x)}
-\]
+`x' = (x - mean(x)) / std(x)`
 
 ---
 
