@@ -2,6 +2,7 @@
 In this project our aim is to identify whether a cell is infected or uninfected. 
 
 # Dataset
+<img src="D:\Machine Learning Project2\images\image.png">
 The dataset contains 27,558 cell images, where we got 13779 images of infected cell and remaining 13779 images of uninfected cell. Images that are present in the dataset are of the **Red Blood Cells**.
 Hear's a breakdown:
 - The **uninfected cells** look uniform, smooth and mostly of single color (like purple).
