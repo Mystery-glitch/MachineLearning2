@@ -16,3 +16,11 @@ myvenv/
 # System files
 .DS_Store
 Thumbs.db
+
+# 🔹 Ignore model files
+*.pkl
+*.pth
+*.npz
+
+# 🔹 Ignore CSV results or logs
+*.csv
