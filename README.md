@@ -8,22 +8,22 @@ To achieve better performance, the training process was done in two stages:
 2. Final training using the best model on a larger dataset (modelTraining.ipynb).
 
 # Folder Explanation
-**malariadetection.ipynb -** 
+**1. malariadetection.ipynb -** 
 This folder contains experiments done using a smaller subset of the dataset.
-1. Purpose:
-- Try different CNN architectures
-- Tune hyperparameters (epochs, batch size, optimizer, etc.)
-- Reduce training time during experimentation
-2. Outcome: Identification of the best performing model architecture
+- Purpose:
+    - Try different CNN architectures
+    - Tune hyperparameters (epochs, batch size, optimizer, etc.)
+    - Reduce training time during experimentation
+- Outcome: Identification of the best performing model architecture
 
 This step helped avoid overfitting and unnecessary computation.
 
-**modelTraining.ipynb -**
+**2. modelTraining.ipynb -**
 After selecting the best model, final training was done in this folder.
-1. Purpose:
-- Train the selected model on more data
-- Improve generalization and accuracy
-
+- Purpose:
+    - Train the selected model on more data
+    - Improve generalization and accuracy
+    
 # Dataset
 The dataset contains 27,558 cell images, where we got 13779 images of infected cell and remaining 13779 images of uninfected cell. Images that are present in the dataset are of the **Red Blood Cells**. <br>
 Hear's a breakdown:
