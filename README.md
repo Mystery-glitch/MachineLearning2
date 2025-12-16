@@ -1,5 +1,4 @@
 # Malaria Detection Using Deep Learning
-## Project Overview
 This project focuses on detecting malaria-infected cells from microscopic blood smear images using Deep Learning (CNN).
 The goal is to build an accurate model that can classify cells as Parasitized or Uninfected.
 
@@ -9,22 +8,19 @@ To achieve better performance, the training process was done in two stages:
 2. Final training using the best model on a larger dataset (modelTraining.ipynb).
 
 # Folder Explanation
-### malariadetection.ipynb - 
+**malariadetection.ipynb -** 
 This folder contains experiments done using a smaller subset of the dataset.
-
 Purpose:
 - Try different CNN architectures
 - Tune hyperparameters (epochs, batch size, optimizer, etc.)
 - Reduce training time during experimentation
-
 Outcome:
 Identification of the best performing model architecture
 
 This step helped avoid overfitting and unnecessary computation.
 
-### modelTraining.ipynb -
+**modelTraining.ipynb -**
 After selecting the best model, final training was done in this folder.
-
 Purpose:
 - Train the selected model on more data
 - Improve generalization and accuracy
