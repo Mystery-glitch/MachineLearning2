@@ -9,7 +9,7 @@ To achieve better performance, the training process was done in two stages:
 2. Final training using the best model on a larger dataset (modelTraining.ipynb).
 
 # Folder Explanation
-- malariadetection.ipynb - 
+### malariadetection.ipynb - 
 This folder contains experiments done using a smaller subset of the dataset.
 
 Purpose:
@@ -22,7 +22,7 @@ Identification of the best performing model architecture
 
 This step helped avoid overfitting and unnecessary computation.
 
-- modelTraining.ipynb -
+### modelTraining.ipynb -
 After selecting the best model, final training was done in this folder.
 
 Purpose:
