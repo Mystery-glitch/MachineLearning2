@@ -9,12 +9,12 @@ To achieve better performance, the training process was done in two stages:
 
 # Folder Explanation
 **1. malariadetection.ipynb -** 
-This folder contains experiments done using a smaller subset of the dataset. It's purpose is to:
+This folder contains experiments done using a smaller subset of the dataset.
+- Purpose:
     - Try different CNN architectures
     - Tune hyperparameters (epochs, batch size, optimizer, etc.)
     - Reduce training time during experimentation
 - Outcome: Identification of the best performing model architecture
-
 This step helped avoid overfitting and unnecessary computation.
 
 **2. modelTraining.ipynb -**
