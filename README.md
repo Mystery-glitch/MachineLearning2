@@ -9,8 +9,7 @@ To achieve better performance, the training process was done in two stages:
 
 # Folder Explanation
 **1. malariadetection.ipynb -** 
-This folder contains experiments done using a smaller subset of the dataset.
-- Purpose:
+This folder contains experiments done using a smaller subset of the dataset. It's purpose is to:
     - Try different CNN architectures
     - Tune hyperparameters (epochs, batch size, optimizer, etc.)
     - Reduce training time during experimentation
@@ -23,7 +22,7 @@ After selecting the best model, final training was done in this folder.
 - Purpose:
     - Train the selected model on more data
     - Improve generalization and accuracy
-    
+
 # Dataset
 The dataset contains 27,558 cell images, where we got 13779 images of infected cell and remaining 13779 images of uninfected cell. Images that are present in the dataset are of the **Red Blood Cells**. <br>
 Hear's a breakdown:
